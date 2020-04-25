@@ -48,7 +48,7 @@ def pool_plot(args):
 class HarryPlotter(object):
 	def __init__(self, list_of_config_dicts=None, list_of_args_strings=None, n_processes=1, n_plots=None, batch=None, standalone_executable=None):
 		if standalone_executable is None:
-			standalone_executable = os.path.expandvars("$CMSSW_BASE/src/Artus/HarryPlotter/scripts/standalone_harry.sh")
+			standalone_executable = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scripts/standalone_harry.sh")
 		self.standalone_executable = standalone_executable
 		
 		self.output_filenames = self.multi_plots(
@@ -153,11 +153,11 @@ class HarryPlotter(object):
 			workdir = tempfile.mkdtemp(prefix="harry_work_"+datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")+"_", dir=os.path.expandvars("$HP_WORK_BASE"))
 			
 			main_config = ""
-			with open(os.path.expandvars("$CMSSW_BASE/src/Artus/HarryPlotter/data/grid-control_base_config.conf"), "r") as main_config_file:
+			with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/grid-control_base_config.conf"), "r") as main_config_file:
 				main_config = main_config_file.read()
 			
 			backend_config = ""
-			with open(os.path.expandvars("$CMSSW_BASE/src/Artus/Configuration/data/grid-control_backend_" + batch + ".conf"), "r") as backend_config_file:
+			with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "/data/grid-control_backend_" + batch + ".conf"), "r") as backend_config_file:
 				backend_config = backend_config_file.read()
 			
 			final_config = string.Template(main_config).safe_substitute(
