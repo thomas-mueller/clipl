@@ -2,16 +2,16 @@
 
 import os
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import ROOT
 
-import Artus.HarryPlotter.plotbase as plotbase
-import Artus.HarryPlotter.plotdata as plotdata
+import clipl.plotbase as plotbase
+import clipl.plotdata as plotdata
 
-from Artus.HarryPlotter.utility.mplhisto import MplHisto, MplGraph
-import Artus.HarryPlotter.utility.labels as labels
+from clipl.utility.mplhisto import MplHisto, MplGraph
+import clipl.utility.labels as labels
 
 import array
 import matplotlib

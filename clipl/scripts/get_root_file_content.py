@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import argparse
 import os
 import re
 
-import Artus.HarryPlotter.utility.roottools as roottools
-from Artus.Utility.tfilecontextmanager import TFileContextManager
+import clipl.utility.roottools as roottools
+from clipl.utility.tfilecontextmanager import TFileContextManager
 
 
 if __name__ == "__main__":

@@ -4,7 +4,7 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import array
@@ -13,9 +13,9 @@ import hashlib
 import ROOT
 import sys
 
-import Artus.HarryPlotter.inputbase as inputbase
-import Artus.HarryPlotter.utility.roottools as roottools
-import Artus.Utility.progressiterator as pi
+import clipl.inputbase as inputbase
+import clipl.utility.roottools as roottools
+import clipl.utility.progressiterator as pi
 
 
 class InputInteractive(inputbase.InputBase):

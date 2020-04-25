@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import sys
 
-import Artus.HarryPlotter.harry as harry
+import clipl.harry as harry
 
 
 if __name__ == "__main__":

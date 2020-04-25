@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import copy
@@ -11,7 +11,7 @@ import os
 import re
 import shlex
 
-import Artus.Utility.tools as tools
+import clipl.utility.tools as tools
 
 
 def list_of_files(path, recursive=False, gfal_ls_args=""):

@@ -9,7 +9,7 @@
 """
 
 import matplotlib.patches as patches
-import Artus.HarryPlotter.plotbase as plotbase
+import clipl.plotbase as plotbase
 
 
 class PlotMplRectangle(plotbase.PlotBase):

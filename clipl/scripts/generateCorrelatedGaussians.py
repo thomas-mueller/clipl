@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import ROOT
@@ -14,7 +14,7 @@ import argparse
 import numpy
 import random
 
-import Artus.Utility.tfilecontextmanager as tfilecontextmanager
+import clipl.utility.tfilecontextmanager as tfilecontextmanager
 
 
 if __name__ == "__main__":

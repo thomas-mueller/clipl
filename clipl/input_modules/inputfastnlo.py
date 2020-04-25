@@ -8,14 +8,14 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import ROOT
 import numpy as np
 from array import array
 
-import Artus.HarryPlotter.inputbase as inputbase
+import clipl.inputbase as inputbase
 
 
 class InputFastNLO(inputbase.InputBase):

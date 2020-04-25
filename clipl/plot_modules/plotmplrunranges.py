@@ -4,7 +4,7 @@
 	plot run ranges and labels as dashed vertical lines on the plot
 """
 
-import Artus.HarryPlotter.plotbase as plotbase
+import clipl.plotbase as plotbase
 
 class PlotMplRunRanges(plotbase.PlotBase):
 

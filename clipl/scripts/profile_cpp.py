@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import argparse
 
-import Artus.Utility.profile_cpp as profile_cpp
+import clipl.utility.profile_cpp as profile_cpp
 
 
 def main():

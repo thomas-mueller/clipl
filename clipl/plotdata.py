@@ -4,7 +4,7 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import abc
@@ -14,7 +14,7 @@ import os
 import string
 import subprocess
 
-import Artus.Utility.tools as tools
+import clipl.utility.tools as tools
 
 
 class PlotData(object):

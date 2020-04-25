@@ -4,7 +4,7 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import array
@@ -16,18 +16,18 @@ import ROOT
 import sys
 import re
 
-import Artus.Utility.tools as tools
+import clipl.utility.tools as tools
 
-import Artus.HarryPlotter.plotbase as plotbase
-import Artus.HarryPlotter.plotdata as plotdata
-import Artus.HarryPlotter.utility.labels as labels
-import Artus.HarryPlotter.utility.roottools as roottools
+import clipl.plotbase as plotbase
+import clipl.plotdata as plotdata
+import clipl.utility.labels as labels
+import clipl.utility.roottools as roottools
 
 ROOT.PyConfig.IgnoreCommandLineOptions = True
-import Artus.HarryPlotter.utility.defaultrootstyle as defaultrootstyle
-import Artus.HarryPlotter.utility.tdrstyle as tdrstyle
-import Artus.HarryPlotter.utility.CMS_lumi as CMS_lumi
-import Artus.HarryPlotter.utility.newrootcolors as newrootcolors
+import clipl.utility.defaultrootstyle as defaultrootstyle
+import clipl.utility.tdrstyle as tdrstyle
+import clipl.utility.CMS_lumi as CMS_lumi
+import clipl.utility.newrootcolors as newrootcolors
 
 
 class RootPlotContainer(plotdata.PlotContainer):

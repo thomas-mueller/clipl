@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
-import Artus.HarryPlotter.analysis_modules.histogrammanipulationbase as histogrammanipulationbase
+import clipl.analysis_modules.histogrammanipulationbase as histogrammanipulationbase
 
 class ShiftBinContents(histogrammanipulationbase.HistogramManipulationBase):
 	"""Shift bin contents by a certain value (for selected histograms)."""

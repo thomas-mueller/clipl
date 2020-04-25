@@ -2,7 +2,7 @@
 
 import argparse
 
-import Artus.HarryPlotter.webplot as webplot
+import clipl.webplot as webplot
 
 
 def main():

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import argparse
@@ -14,8 +14,8 @@ ROOT.gROOT.SetBatch(True)
 ROOT.PyConfig.IgnoreCommandLineOptions = True
 ROOT.gErrorIgnoreLevel = ROOT.kError
 
-import Artus.Utility.tfilecontextmanager as tfilecontextmanager
-import Artus.Utility.tools as tools
+import clipl.utility.tfilecontextmanager as tfilecontextmanager
+import clipl.utility.tools as tools
 
 
 def csv2root(args):

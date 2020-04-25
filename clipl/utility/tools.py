@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import array
@@ -19,7 +19,7 @@ import subprocess
 import time
 import ROOT
 
-import Artus.Utility.progressiterator as pi
+import clipl.utility.progressiterator as pi
 
 from difflib import SequenceMatcher
 

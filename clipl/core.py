@@ -10,7 +10,7 @@ import imp
 import inspect
 import copy
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 
@@ -18,17 +18,17 @@ import ROOT
 ROOT.PyConfig.IgnoreCommandLineOptions = True
 ROOT.gErrorIgnoreLevel = ROOT.kError
 
-import Artus.HarryPlotter.harryparser as harryparser
-import Artus.HarryPlotter.plotdata as plotdata
+import clipl.harryparser as harryparser
+import clipl.plotdata as plotdata
 
-from Artus.HarryPlotter.analysisbase import AnalysisBase
-from Artus.HarryPlotter.inputbase import InputBase
-from Artus.HarryPlotter.plotbase import PlotBase
+from clipl.analysisbase import AnalysisBase
+from clipl.inputbase import InputBase
+from clipl.plotbase import PlotBase
 
-import Artus.HarryPlotter.processor as processor
+import clipl.processor as processor
 
-from Artus.Utility.jsonTools import JsonDict
-import Artus.Utility.tools as tools
+from clipl.utility.jsonTools import JsonDict
+import clipl.utility.tools as tools
 
 JsonDict.COMMENT_DELIMITER = "@"
 

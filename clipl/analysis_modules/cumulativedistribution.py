@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import ROOT
 import hashlib
 import math
 
-import Artus.HarryPlotter.analysisbase as analysisbase
+import clipl.analysisbase as analysisbase
 
 class CumulativeDistribution(analysisbase.AnalysisBase):
 	"""Derive cumulative distribution of (multi-dimensional) histograms. This module takes under-/over-flow bins into account"""

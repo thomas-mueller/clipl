@@ -4,15 +4,15 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import hashlib
 import ROOT
 import math
 
-import Artus.HarryPlotter.analysisbase as analysisbase
-import Artus.HarryPlotter.utility.roottools as roottools
+import clipl.analysisbase as analysisbase
+import clipl.utility.roottools as roottools
 
 class BlindingPolicy(analysisbase.AnalysisBase):
 	def __init__(self):

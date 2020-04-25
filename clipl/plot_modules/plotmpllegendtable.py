@@ -7,7 +7,7 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import numpy as np
@@ -15,8 +15,8 @@ import os
 from matplotlib.patches import Rectangle
 import matplotlib.pyplot as plt
 
-import Artus.HarryPlotter.plotbase as plotbase
-from Artus.HarryPlotter.plot_modules.plotmpl import PlotMpl
+import clipl.plotbase as plotbase
+from clipl.plot_modules.plotmpl import PlotMpl
 
 
 class PlotMplLegendTable(plotbase.PlotBase):

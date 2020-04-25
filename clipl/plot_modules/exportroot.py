@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
-import Artus.Utility.jsonTools as jsonTools
-import Artus.HarryPlotter.plotbase as plotbase
-import Artus.HarryPlotter.plotdata as plotdata
-import Artus.HarryPlotter.utility.roottools as roottools
+import clipl.utility.jsonTools as jsonTools
+import clipl.plotbase as plotbase
+import clipl.plotdata as plotdata
+import clipl.utility.roottools as roottools
 
 import ROOT
 

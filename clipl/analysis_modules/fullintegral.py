@@ -3,16 +3,16 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 import os
 import sys
 import hashlib
 import ROOT
 import math
-import Artus.Utility.jsonTools as jsonTools
-import Artus.HarryPlotter.analysisbase as analysisbase
-import Artus.HarryPlotter.utility.roottools as roottools
+import clipl.utility.jsonTools as jsonTools
+import clipl.analysisbase as analysisbase
+import clipl.utility.roottools as roottools
 
 class FullIntegral(analysisbase.AnalysisBase):
 	

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import collections
@@ -31,9 +31,9 @@ for root_type in [
 ]:
 	root_type.__init__._creates = True # https://root.cern.ch/phpBB3/viewtopic.php?t=9786
 
-import Artus.Utility.jsonTools as jsonTools
-import Artus.Utility.tools as tools
-import Artus.HarryPlotter.core as harrycore
+import clipl.utility.jsonTools as jsonTools
+import clipl.utility.tools as tools
+import clipl.core as harrycore
 
 
 def pool_plot(args):

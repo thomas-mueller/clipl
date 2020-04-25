@@ -5,7 +5,7 @@ Collection of functions to ease handling ROOT histograms
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import array
@@ -27,10 +27,10 @@ ROOT.gEnv.SetValue("TFile.AsyncPrefetching", 1)
 ROOT.gEnv.SetValue("ACLiC.LinkLibs", 0)
 ROOT.gROOT.ProcessLine("gEnv->SetValue(\"ACLiC.LinkLibs\", 0)")
 
-import Artus.Utility.geometry as geometry
-import Artus.Utility.tools as tools
-from Artus.Utility.tfilecontextmanager import TFileContextManager
-import Artus.HarryPlotter.utility.rootcache as rootcache
+import clipl.utility.geometry as geometry
+import clipl.utility.tools as tools
+from clipl.utility.tfilecontextmanager import TFileContextManager
+import clipl.utility.rootcache as rootcache
 
 
 class RootTools(object):

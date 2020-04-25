@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import argparse
@@ -10,9 +10,9 @@ import copy
 import os
 import re
 
-import Artus.HarryPlotter.utility.roottools as roottools
-import Artus.Utility.tfilecontextmanager as tfilecontextmanager
-import Artus.HarryPlotter.harry as harry
+import clipl.utility.roottools as roottools
+import clipl.utility.tfilecontextmanager as tfilecontextmanager
+import clipl.harry as harry
 
 
 if __name__ == "__main__":

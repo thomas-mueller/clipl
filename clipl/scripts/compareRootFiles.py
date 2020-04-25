@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import argparse
@@ -14,7 +14,7 @@ ROOT.gErrorIgnoreLevel = ROOT.kError
 
 import sys
 
-import Artus.HarryPlotter.utility.roottools as roottools
+import clipl.utility.roottools as roottools
 
 opt_all = False
 

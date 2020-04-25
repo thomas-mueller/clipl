@@ -4,7 +4,7 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import hashlib
@@ -12,8 +12,8 @@ import ROOT
 import math
 import numpy
 
-import Artus.HarryPlotter.analysisbase as analysisbase
-from Artus.HarryPlotter.analysis_modules.sumofhistograms import SumOfHistograms
+import clipl.analysisbase as analysisbase
+from clipl.analysis_modules.sumofhistograms import SumOfHistograms
 
 class AverageHistograms(analysisbase.AnalysisBase):
 	def __init__(self):

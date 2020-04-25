@@ -4,7 +4,7 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import datetime
@@ -18,10 +18,10 @@ import sys
 
 import ROOT
 
-import Artus.HarryPlotter.processor as processor
-import Artus.Utility.tools as tools
-import Artus.HarryPlotter.utility.roottools as roottools
-import Artus.HarryPlotter.utility.colors as colors
+import clipl.processor as processor
+import clipl.utility.tools as tools
+import clipl.utility.roottools as roottools
+import clipl.utility.colors as colors
 
 class PlotBase(processor.Processor):
 

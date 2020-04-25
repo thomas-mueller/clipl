@@ -1,6 +1,6 @@
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import array
@@ -8,7 +8,7 @@ import hashlib
 
 import ROOT
 
-import Artus.HarryPlotter.analysisbase as analysisbase
+import clipl.analysisbase as analysisbase
 
 
 # https://root-forum.cern.ch/t/how-to-pass-fcn-func-defined-on-python-side-to-root-fitter/11168

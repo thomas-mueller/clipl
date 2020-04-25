@@ -2,7 +2,7 @@
 
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import array
@@ -12,8 +12,8 @@ import math
 
 import ROOT
 
-import Artus.HarryPlotter.analysisbase as analysisbase
-import Artus.HarryPlotter.utility.roottools as roottools
+import clipl.analysisbase as analysisbase
+import clipl.utility.roottools as roottools
 
 
 

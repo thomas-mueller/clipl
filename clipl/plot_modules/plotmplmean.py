@@ -7,10 +7,10 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
-import Artus.HarryPlotter.plotbase as plotbase
+import clipl.plotbase as plotbase
 
 
 class PlotMplMean(plotbase.PlotBase):

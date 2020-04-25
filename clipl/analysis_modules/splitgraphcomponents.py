@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import array
@@ -10,7 +10,7 @@ import numpy
 
 import ROOT
 
-import Artus.HarryPlotter.analysisbase as analysisbase
+import clipl.analysisbase as analysisbase
 
 
 class SplitGraphComponents(analysisbase.AnalysisBase):

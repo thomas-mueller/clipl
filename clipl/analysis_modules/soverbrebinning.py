@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 import sys
 
@@ -9,8 +9,8 @@ import hashlib
 
 import ROOT
 
-import Artus.HarryPlotter.analysisbase as analysisbase
-import Artus.HarryPlotter.utility.roottools as roottools
+import clipl.analysisbase as analysisbase
+import clipl.utility.roottools as roottools
 
 
 class SOverBRebinning(analysisbase.AnalysisBase):

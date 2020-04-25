@@ -5,12 +5,12 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import yoda
 
-import Artus.HarryPlotter.inputbase as inputbase
+import clipl.inputbase as inputbase
 
 
 class InputYoda(inputbase.InputBase):

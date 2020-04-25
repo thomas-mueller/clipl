@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import ROOT
@@ -10,8 +10,8 @@ import array
 import hashlib
 import sys
 
-import Artus.HarryPlotter.analysis_modules.histogrammanipulationbase as histogrammanipulationbase
-import Artus.HarryPlotter.utility.roottools as roottools
+import clipl.analysis_modules.histogrammanipulationbase as histogrammanipulationbase
+import clipl.utility.roottools as roottools
 
 
 class ContourFromHistogram(histogrammanipulationbase.HistogramManipulationBase):

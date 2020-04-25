@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import argparse
 import sys
 
-from Artus.HarryPlotter.plotdata import PlotData
+from clipl.plotdata import PlotData
 
 
 parser = argparse.ArgumentParser(description="Make Data-MC control plots.",

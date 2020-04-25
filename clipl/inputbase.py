@@ -4,15 +4,15 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import collections
 import ROOT
 
-import Artus.HarryPlotter.processor as processor
-from Artus.HarryPlotter.utility.binnings import BinningsDict
-from Artus.HarryPlotter.utility.expressions import ExpressionsDict
+import clipl.processor as processor
+from clipl.utility.binnings import BinningsDict
+from clipl.utility.expressions import ExpressionsDict
 
 class InputBase(processor.Processor):
 	def __init__(self):

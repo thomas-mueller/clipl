@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import argparse
 import os
 
-import Artus.Utility.jsonTools as jsonTools
-import Artus.HarryPlotter.harry as harry
+import clipl.utility.jsonTools as jsonTools
+import clipl.harry as harry
 
 
 if __name__ == "__main__":

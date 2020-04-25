@@ -2,19 +2,19 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import argparse
 
-import Artus.Utility.jsonTools as jsonTools
-import Artus.Utility.tools as tools
+import clipl.utility.jsonTools as jsonTools
+import clipl.utility.tools as tools
 
 import glob
 import os
 import shlex
 import sys
-from Artus.Utility.tools import hadd
+from clipl.utility.tools import hadd
 
 
 def main():

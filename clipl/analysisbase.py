@@ -4,12 +4,12 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import sys
 
-import Artus.HarryPlotter.processor as processor
+import clipl.processor as processor
 
 
 class AnalysisBase(processor.Processor):

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import argparse
@@ -10,7 +10,7 @@ import os
 import shlex
 import sys
 
-import Artus.Utility.tools as tools
+import clipl.utility.tools as tools
 
 
 def run_command(command):

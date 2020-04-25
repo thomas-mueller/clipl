@@ -4,12 +4,12 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import ROOT
 
-import Artus.HarryPlotter.analysis_modules.histogrammanipulationbase as histogrammanipulationbase
+import clipl.analysis_modules.histogrammanipulationbase as histogrammanipulationbase
 
 
 class CorrectNegativeBinContents(histogrammanipulationbase.HistogramManipulationBase):

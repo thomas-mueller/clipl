@@ -4,15 +4,15 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 import sys
 import ROOT
 import hashlib
-import Artus.HarryPlotter.analysisbase as analysisbase
+import clipl.analysisbase as analysisbase
 
-import Artus.HarryPlotter.analysis_modules.functionfit as functionfit
-import Artus.HarryPlotter.analysis_modules.projectionY as projectionY
+import clipl.analysis_modules.functionfit as functionfit
+import clipl.analysis_modules.projectionY as projectionY
 import copy
 
 class ProjectByFit(analysisbase.AnalysisBase):

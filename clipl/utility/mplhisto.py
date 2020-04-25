@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import numpy as np
 import ROOT
 import sys
 
-import Artus.HarryPlotter.utility.roottools as roottools
+import clipl.utility.roottools as roottools
 
 class MplGraph:
 

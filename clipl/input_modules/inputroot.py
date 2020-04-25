@@ -4,7 +4,7 @@
 """
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import hashlib
@@ -13,13 +13,13 @@ import sys
 import ROOT
 
 
-import Artus.HarryPlotter.inputbase as inputbase
-import Artus.HarryPlotter.input_modules.inputfile as inputfile
-import Artus.HarryPlotter.utility.roottools as roottools
-import Artus.Utility.progressiterator as pi
-import Artus.Utility.tools as tools
-import Artus.Utility.jsonTools as jsonTools
-from Artus.Utility.tfilecontextmanager import TFileContextManager
+import clipl.inputbase as inputbase
+import clipl.input_modules.inputfile as inputfile
+import clipl.utility.roottools as roottools
+import clipl.utility.progressiterator as pi
+import clipl.utility.tools as tools
+import clipl.utility.jsonTools as jsonTools
+from clipl.utility.tfilecontextmanager import TFileContextManager
 
 
 class InputRoot(inputfile.InputFile):

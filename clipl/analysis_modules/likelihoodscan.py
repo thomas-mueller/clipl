@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import Artus.Utility.logger as logger
+import clipl.utility.logger as logger
 log = logging.getLogger(__name__)
 
 import array
@@ -11,8 +11,8 @@ import math
 
 import ROOT
 
-import Artus.HarryPlotter.analysisbase as analysisbase
-import Artus.Utility.tools as tools
+import clipl.analysisbase as analysisbase
+import clipl.utility.tools as tools
 
 
 class LikelihoodScan(analysisbase.AnalysisBase):
