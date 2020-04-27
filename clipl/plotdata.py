@@ -80,7 +80,7 @@ class PlotData(object):
 			files_to_copy.append(os.path.join(output_dir, galleryplot))
 		html_texts = {}
 		for var in ['overview', 'description', 'plot']:
-			with open(os.path.expandvars("$ARTUSPATH/HarryPlotter/data/template_webplotting_{}.html".format(var))) as htmlfile:
+			with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/template_webplotting_{}.html".format(var))) as htmlfile:
 				html_texts[var] = string.Template(htmlfile.read())
 		html_texts['description'] = html_texts['description'].substitute(url=url)
 		if www_text:

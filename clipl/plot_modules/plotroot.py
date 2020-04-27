@@ -254,7 +254,7 @@ class PlotRoot(plotbase.PlotBase):
 			ROOT.gStyle.SetOptFit(0)
 
 		# load custom painter (fixes for horizontal histograms)
-		roottools.RootTools.load_compile_macro(os.path.expandvars("$ARTUSPATH/HarryPlotter/python/utility/customhistogrampainter.C"))
+		roottools.RootTools.load_compile_macro(os.path.join(os.path.dirname(os.path.abspath(__file__)), "utility/customhistogrampainter.C"))
 
 	def create_canvas(self, plotData):
 		super(PlotRoot, self).create_canvas(plotData)

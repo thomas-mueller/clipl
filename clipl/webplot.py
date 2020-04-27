@@ -37,9 +37,9 @@ def webplot(input_dir, **kwargs):
 	plot_files, subdirs = get_inputs(input_dir, **kwargs)
 	html_texts = {}
 	for var in ["overview", "description", "subdir", "plot", "link"]:
-		with open(os.path.expandvars("$ARTUSPATH/HarryPlotter/data/template_webplot_{}.html".format(var))) as htmlfile:
+		with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/template_webplot_{}.html".format(var))) as htmlfile:
 			html_texts[var] = string.Template(htmlfile.read())
-	with open(os.path.expandvars("$ARTUSPATH/HarryPlotter/data/template_webplotting_{}.html".format("plot"))) as htmlfile:
+	with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/template_webplotting_{}.html".format("plot"))) as htmlfile:
 		html_texts["plotjson"] = string.Template(htmlfile.read())
 
 	# create remote dir
